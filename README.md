@@ -6,18 +6,18 @@ and
 
 **Bootstrap chosen** is a all-in-one plugin for chosen to work perfect with BS3.
 
-The [demo page](http://xiangming.github.io/bootstrap-navbar-addon/) has been tested with the modern browsers both in windows & MacOS. Try it!
+The [demo page](http://xiangming.github.io/bootstrap-chosen/) has been tested with the modern browsers both in windows & MacOS. Try it !
 
 ## How to use?
 include the libs
-```
+```html
 <link rel="stylesheet" href="bootstrap.min.css">
 <link rel="stylesheet" href="bootstrap.chosen.css">
 <script src="jquery-1.9.1.min.js"></script>
 <script src="chosen.jquery.min.js"></script>
 ```
 and fire on chosen
-```
+```javascript
 <script>
     $('select').chosen({});
 </script>
